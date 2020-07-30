@@ -3,9 +3,10 @@
 #include <tuple>
 #include <variant>
 
-template <typename... States>
-class StateMachine
-{
+namespace fsm {
+
+template <class... States>
+class StateMachine {
 public:
     StateMachine() = default;
 
@@ -42,3 +43,5 @@ private:
     std::tuple<States...> states;
     std::variant<States*...> currentState{ &std::get<0>(states) };
 };
+
+}  // End of namespace fsm
