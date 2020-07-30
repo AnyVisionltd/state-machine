@@ -1,10 +1,10 @@
-#include <fsm/actions/Nothing.h>
-#include <fsm/actions/TransitionTo.h>
-#include <fsm/actions/Maybe.h>
-#include <fsm/actions/ByDefault.h>
-#include <fsm/actions/On.h>
-#include <fsm/actions/Will.h>
-#include <fsm/StateMachine.h>
+#include <fsm/actions/Nothing.hpp>
+#include <fsm/actions/TransitionTo.hpp>
+#include <fsm/actions/Maybe.hpp>
+#include <fsm/actions/ByDefault.hpp>
+#include <fsm/actions/On.hpp>
+#include <fsm/actions/Will.hpp>
+#include <fsm/StateMachine.hpp>
 
 struct OpenEvent
 {

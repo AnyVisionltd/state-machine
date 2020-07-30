@@ -1,6 +1,7 @@
 #pragma once
 
-#include "OneOf.h"
+#include "Nothing.hpp"
+#include "OneOf.hpp"
 
 namespace fsm {
 
